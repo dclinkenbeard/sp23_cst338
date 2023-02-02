@@ -55,7 +55,6 @@ public class FileReader {
 
     }*/
   }
-}//End of the class
 
 
 
