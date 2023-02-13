@@ -18,7 +18,9 @@ public class Sandwich {
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("This Sandwich has ");
+    sb.append("This ");
+    sb.append(this.getClass().getName());
+    sb.append(" has ");
     sb.append(filling);
     sb.append(" between ");
     sb.append(slicesOfBread);
